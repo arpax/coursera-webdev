@@ -1,3 +1,36 @@
+* {
+  box-sizing: border-box;
+  }
+
 h1{
-	color:red;
+	text-align: center;
+}
+
+.card-container {
+	width: 100%;
+	float:left;
+}
+
+ .card {
+	margin-left: 10px;
+	margin-right: 10px;
+	clear: right;
+	border-style: solid;
+	width: 30%; /* Use media query to wrap */
+	float:left;
+}
+
+.card-title{
+	border-style: solid;
+	float: right;
+	text-align: center;
+
+	width: 30%;
+}
+
+
+.card-text{
+	clear: right;
+	padding:  10px;
+
 }

@@ -6,9 +6,11 @@ h1{
 	text-align: center;
 }
 
+
 .card-container {
 	width: 100%;
 	float:left;
+	font-family: Lato, Roboto, Arial, Tahoma;
 }
 
  .card {
@@ -18,14 +20,21 @@ h1{
 	border-style: solid;
 	width: 30%; /* Use media query to wrap */
 	float:left;
+	background-color: grey;
 }
 
 .card-title{
 	border-style: solid;
+	border-top: 0;
+	border-right: 0;
 	float: right;
 	text-align: center;
-
+	font-weight: bold;
+	font-size: 20px;
 	width: 30%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-color: black;
 }
 
 
@@ -33,4 +42,18 @@ h1{
 	clear: right;
 	padding:  10px;
 
+}
+
+.chicken{
+	background-color: red;
+	color: white;
+}
+
+.beef{
+	background-color: green;
+}
+
+.sushi{
+	background-color: blue;
+	color: white;
 }

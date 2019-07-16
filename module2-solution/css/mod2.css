@@ -18,8 +18,6 @@ h1{
 	margin-right: 10px;
 	clear: right;
 	border-style: solid;
-	width: 30%; /* Use media query to wrap */
-	float:left;
 	background-color: grey;
 }
 
@@ -37,7 +35,10 @@ h1{
 	border-color: black;
 }
 
-
+.card-wrapper{
+	width: 33.33%; /* Use media query to wrap */
+	float:left;
+}
 .card-text{
 	clear: right;
 	padding:  10px;

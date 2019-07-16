@@ -6,12 +6,14 @@
 
 h1{
 	text-align: center;
+	font-size: 1.75em;
 }
 
 .card-container {
 	width: 100%;
 	float:left;
 	font-family: Lato, Roboto, Arial, Tahoma;
+	margin-top: 10px;
 }
 
 /* GLOBAL END*/
@@ -48,22 +50,32 @@ h1{
  .card {
 	margin: 10px;
 	clear: right;
-	border-style: solid;
 	background-color: grey;
+
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
 }
 
+
 .card-title{
-	border-style: solid;
-	border-top: 0;
-	border-right: 0;
+
 	float: right;
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
 	width: 30%;
 	padding-top: 3px;
 	padding-bottom: 3px;
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
 	border-color: black;
+
 }
 
 

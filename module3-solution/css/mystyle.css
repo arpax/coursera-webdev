@@ -1,4 +1,13 @@
 .filler{
 	background-color: grey;
 	padding: 1em;
+	margin: 2em;
+}
+
+.section-container{
+	margin-bottom: 2em;
+}
+
+a{
+	color: white;
 }

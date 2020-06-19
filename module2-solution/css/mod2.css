@@ -72,8 +72,9 @@ h1{
 	border-style: solid;
 	border-radius: 5px;
 	border-width: 1px;
-	border-top: 0;
-	border-right: 0;
+	/* Assignement requires 1px border, but I prefer to merge corners*/
+	/* border-top: 0; */
+	/* border-right: 0; */
 	border-color: black;
 
 }

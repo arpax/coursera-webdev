@@ -11,3 +11,6 @@
 a{
 	color: white;
 }
+button.spacer {
+	margin-bottom: 2em;
+}

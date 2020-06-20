@@ -1,0 +1,16 @@
+.filler{
+	background-color: grey;
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+.container-fluid{
+	margin-bottom: 2em;
+}
+
+a{
+	color: white;
+}
+button.spacer {
+	margin-bottom: 2em;
+}
